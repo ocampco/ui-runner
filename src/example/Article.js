@@ -15,6 +15,19 @@
 // Metadata: Published: 12 / 12 / 2012 | Views: 22
 // "https://public.karat.io/content/front-end-coding-exercises/post-list-view.png"
 
-const Article = () => (<></>);
+import './Article.css';
+
+const Article = () => (
+  <>
+    <h1 className='heading'>Lorem ipsum title</h1>
+    <div className='content'>
+      <img className='image' alt='test' src='https://public.karat.io/content/front-end-coding-exercises/post-image.png' />
+      <div className='information'>
+        <div>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum may be used as a placeholder before final copy is available.</div>
+        <div className='metadata'>Published: 12 / 12 / 2012 | Views: 22</div>
+      </div>
+    </div>
+  </>
+);
 
 export default Article;
