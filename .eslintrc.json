@@ -11,7 +11,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["error", "only-multiline"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
