@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+Array [
+  <h1>
+    Hello World
+  </h1>,
+  <div
+    data-testid="time"
+  >
+    24/09/2023, 11:08:43
+  </div>,
+]
+`;
