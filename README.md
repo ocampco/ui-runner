@@ -12,6 +12,12 @@ $ npm i
 # Run UI
 $ npm run start
 
-# Run Jest tests
+# Run all tests
 $ npm run test
+
+# Run Jest Snapshot tests - *.snap.test.js
+$ npm run test:snap
+
+# Run Unit tests
+$ npm run test:js
 ```

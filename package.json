@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test:all": "react-scripts test",
+    "test:snap": "react-scripts test --testMatch='**/*.snap.test.js'",
+    "test:js": "react-scripts test --testMatch='**/!(*.snap*)*.test.js'"
   },
   "browserslist": {
     "production": [
