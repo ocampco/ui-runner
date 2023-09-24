@@ -11,6 +11,8 @@
     "sourceType": "module"
   },
   "rules": {
+    "react/jsx-no-useless-fragment": "warn",
+    "no-unused-vars": "warn",
     "react/prop-types": "off",
     "comma-dangle": ["error", "only-multiline"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
